@@ -1,25 +1,13 @@
 import MainContainer from "../components/MainContainer";
+import styles from "../styles/error404.module.css"
 
 export default function Error() {
     return (
         <MainContainer>
-            <p>404</p>
-            <h1>
+            <p className={styles.textError}>404</p>
+            <h1 className={styles.captionError}>
                 Ой, мы не нашли страницу :&#125;
             </h1>
-            <style jsx>
-                {`
-                    p, h1 {
-                        text-align: center;
-                    }
-                    p {
-                        font-size: 120px;
-                    }
-                    h1 {
-                        font-size: 40px;
-                    }
-                `}
-            </style>
         </MainContainer>
     )
 };

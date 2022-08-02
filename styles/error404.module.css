@@ -1,0 +1,9 @@
+.textError, .captionError {
+    text-align: center;
+}
+.textError {
+    font-size: 120px;
+}
+.captionError {
+    font-size: 40px;
+}
